@@ -1,0 +1,187 @@
+[21:14:59] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:14:59] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:14:59] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:14:59] [main/INFO]: Forge Mod Loader version 7.10.1.1160 for Minecraft 1.7.10 loading
+[21:14:59] [main/INFO]: Java is Java HotSpot(TM) Client VM, version 1.7.0_21, running on Windows 7:x86:6.1, installed at C:\Program Files (x86)\Java\jdk1.7.0_21\jre
+[21:14:59] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:14:59] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:14:59] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:14:59] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:14:59] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:14:59] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:14:59] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[21:15:01] [main/ERROR]: The minecraft jar file:/C:/Users/enzo.rugai/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1160/forgeSrc-1.7.10-10.13.0.1160.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[21:15:01] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[21:15:01] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/enzo.rugai/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1160/forgeSrc-1.7.10-10.13.0.1160.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[21:15:01] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[21:15:01] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:15:01] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:15:02] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:15:04] [main/INFO]: Setting user: ForgeDevName
+[21:15:05] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:15:06] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[21:15:06] [Client thread/INFO]: MinecraftForge v10.13.0.1160 Initialized
+[21:15:06] [Client thread/INFO]: Replaced 182 ore recipies
+[21:15:06] [Client thread/INFO]: Completed early MinecraftForge initialization
+[21:15:06] [Client thread/INFO]: Searching C:\Users\enzo.rugai\Documents\Development\Java\Mods\TPEngineer\eclipse\mods for mods
+[21:15:10] [Client thread/WARN]: Zip file rt.jar failed to read properly, it will be ignored
+java.lang.NullPointerException
+	at cpw.mods.fml.common.discovery.asm.ASMModParser.isBaseMod(ASMModParser.java:130) ~[ASMModParser.class:?]
+	at cpw.mods.fml.common.ModContainerFactory.build(ModContainerFactory.java:34) ~[ModContainerFactory.class:?]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:83) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:123) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:347) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:468) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:204) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:532) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[21:15:12] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[21:15:13] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[21:15:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Teleport Engineer
+[21:15:13] [Client thread/INFO]: Processing ObjectHolder annotations
+[21:15:13] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[21:15:13] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[21:15:13] [Client thread/INFO]: Applying holder lookups
+[21:15:13] [Client thread/INFO]: Holder lookups applied
+[21:15:14] [Sound Library Loader/INFO]: Sound engine started
+[21:15:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:15:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:15:15] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[21:15:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Teleport Engineer
+[21:15:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:15:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:15:16] [Sound Library Loader/INFO]: Sound engine started
+[21:15:22] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:15:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:15:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:16:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:16:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:16:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:16:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:16:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:17:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:17:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:17:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:17:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:17:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:18:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:18:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:18:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:18:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:19:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:19:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:20:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:20:05] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:20:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:20:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:20:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:21:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:21:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:21:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:22:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:22:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:22:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:23:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:23:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:23:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:24:05] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:24:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:24:49] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:24:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:25:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:25:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:25:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:25:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:26:00] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:26:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:26:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:26:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:26:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:27:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:27:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:27:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:27:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:27:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:27:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:27:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:28:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:28:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:28:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:28:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:28:23] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:28:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:28:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:28:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:28:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[21:28:37] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:28:37] [Server thread/INFO]: Generating keypair
+[21:28:38] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[21:28:38] [Server thread/INFO]: Applying holder lookups
+[21:28:38] [Server thread/INFO]: Holder lookups applied
+[21:28:38] [Server thread/INFO]: Loading dimension 0 (ModTest) (net.minecraft.server.integrated.IntegratedServer@1ea6849)
+[21:28:38] [Server thread/INFO]: Loading dimension 1 (ModTest) (net.minecraft.server.integrated.IntegratedServer@1ea6849)
+[21:28:38] [Server thread/INFO]: Loading dimension -1 (ModTest) (net.minecraft.server.integrated.IntegratedServer@1ea6849)
+[21:28:38] [Server thread/INFO]: Preparing start region for level 0
+[21:28:39] [Server thread/INFO]: Preparing spawn area: 16%
+[21:28:40] [Server thread/INFO]: Preparing spawn area: 50%
+[21:28:41] [Server thread/INFO]: Changing view distance to 8, from 10
+[21:28:43] [Netty Client IO #0/INFO]: Server protocol version 1
+[21:28:43] [Netty IO #1/INFO]: Client protocol version 1
+[21:28:43] [Netty IO #1/INFO]: Client attempting to join with 4 mods : mcp@9.05,FML@7.10.1.1160,tpengineer@1.7.2-1.0,Forge@10.13.0.1160
+[21:28:43] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[21:28:43] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[21:28:43] [Client thread/INFO]: [Client thread] Client side modded connection established
+[21:28:43] [Server thread/INFO]: [Server thread] Server side modded connection established
+[21:28:43] [Server thread/INFO]: ForgeDevName[local:E:aea25cd0] logged in with entity id 210 at (4.362235932747045, 4.0, 0.9303538831941931)
+[21:28:43] [Server thread/INFO]: ForgeDevName joined the game
+[21:28:45] [Server thread/INFO]: Saving and pausing game...
+[21:28:45] [Server thread/INFO]: Saving chunks for level 'ModTest'/Overworld
+[21:28:45] [Server thread/INFO]: Saving chunks for level 'ModTest'/Nether
+[21:28:45] [Server thread/INFO]: Saving chunks for level 'ModTest'/The End
+[21:28:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2324ms behind, skipping 46 tick(s)
+[21:29:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:29:28] [Server thread/INFO]: Saving and pausing game...
+[21:29:28] [Server thread/INFO]: Saving chunks for level 'ModTest'/Overworld
+[21:29:28] [Server thread/INFO]: Saving chunks for level 'ModTest'/Nether
+[21:29:28] [Server thread/INFO]: Saving chunks for level 'ModTest'/The End
+[21:29:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:29:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.grass
+[21:29:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.grass
+[21:29:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[21:29:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[21:29:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[21:29:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.game.creative
+[21:29:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.grass
+[21:29:37] [Server thread/INFO]: Saving and pausing game...
+[21:29:37] [Server thread/INFO]: Saving chunks for level 'ModTest'/Overworld
+[21:29:37] [Server thread/INFO]: Saving chunks for level 'ModTest'/Nether
+[21:29:37] [Server thread/INFO]: Saving chunks for level 'ModTest'/The End
+[21:29:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:29:38] [Server thread/INFO]: Stopping server
+[21:29:38] [Server thread/INFO]: Saving players
+[21:29:38] [Server thread/INFO]: Saving worlds
+[21:29:38] [Server thread/INFO]: Saving chunks for level 'ModTest'/Overworld
+[21:29:38] [Server thread/INFO]: Saving chunks for level 'ModTest'/Nether
+[21:29:38] [Server thread/INFO]: Saving chunks for level 'ModTest'/The End
+[21:29:38] [Server thread/INFO]: Unloading dimension 0
+[21:29:38] [Server thread/INFO]: Unloading dimension -1
+[21:29:38] [Server thread/INFO]: Unloading dimension 1
+[21:29:38] [Server thread/INFO]: Applying holder lookups
+[21:29:38] [Server thread/INFO]: Holder lookups applied
+[21:29:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[21:29:39] [Client thread/INFO]: Stopping!
